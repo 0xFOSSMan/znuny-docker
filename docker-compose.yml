@@ -1,0 +1,8 @@
+name: znuny
+services:
+  znuny:
+    image: fossman/znuny
+    build:
+      context: .
+    ports:
+     - 8123:80

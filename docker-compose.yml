@@ -1,7 +1,7 @@
 name: znuny
 services:
   znuny:
-    image: fossman/znuny
+    #image: ghcr.io/0xFOSSMan/znuny-docker
     build:
       context: .
     ports:
